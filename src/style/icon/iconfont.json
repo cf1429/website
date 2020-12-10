@@ -1,0 +1,44 @@
+{
+  "id": "2081420",
+  "name": "知仲官网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11195033",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "560667",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "1049698",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "4936957",
+      "name": "zhihu",
+      "font_class": "zhihu",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "13743995",
+      "name": "jinritoutiao",
+      "font_class": "jinritoutiao",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    }
+  ]
+}
