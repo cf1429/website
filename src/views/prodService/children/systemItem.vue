@@ -18,11 +18,7 @@
 </template>
 
 <script>
-<<<<<<< HEAD
 import systemImg1 from "@/assets/images/system1.jpg";
-=======
-import systemImg1 from "@/assets/images/system1.png";
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
 export default {
   name: "systemItem",
   props:['item'],

@@ -28,11 +28,7 @@ export default {
         {
           id:'1',
           imgSrc:feature1,
-<<<<<<< HEAD
-          title:'设备安全',
-=======
           title:'系统安全',
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           desc:"开发与部署符合三级等保要求；系统多层交互运行；具备SSL安全证书，数据传输加密且自动保存备份，结合DDos防护、漏洞扫描与防火墙实现多重防护。"
         },
         {

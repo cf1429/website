@@ -17,20 +17,12 @@
             <p>咨询电话</p>
             <p>010-64170741</p>
           </div>
-<<<<<<< HEAD
           <!-- <div class="content-right">
-=======
-          <div class="content-right">
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
             <p>扫码咨询</p>
             <div class="right-content">
               <img :src="footerImg1" alt />
             </div>
-<<<<<<< HEAD
           </div> -->
-=======
-          </div>
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
         </div>
       </div>
     </transition>

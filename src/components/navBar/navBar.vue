@@ -52,29 +52,20 @@ export default {
         },
         {
           id:"2",
-<<<<<<< HEAD
           title:"产品",
-=======
-          title:"产品与服务",
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
+
           flag:false,
           src:"/prodService",
         },{
           id:"3",
-<<<<<<< HEAD
           title:"工程案例",
-=======
-          title:"知仲活动",
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
+
           flag:false,
           src:"/activity",
         },{
           id:"4",
-<<<<<<< HEAD
           title:"技术服务",
-=======
-          title:"新闻动态",
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
+
           flag:false,
           src:"/news",
         },{

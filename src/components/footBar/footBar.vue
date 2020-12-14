@@ -14,20 +14,17 @@
           </p>
           <p>
             <Icon type="ios-pin-outline" />
-<<<<<<< HEAD
             <span>地址：陕西省西安市曲江新区雁塔南路318号拿铁城A座1109室</span>
           </p>
           <br/>
         </div>
       </div>
       <!-- <div class="footer-second">
-=======
             <span>地址：北京市朝阳区东大桥路尚都soho北塔B座1507</span>
           </p>
         </div>
       </div>
       <div class="footer-second">
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
         <div class="second-item weixnshare" @mousemove="openwxShare" @mouseleave="closewxShare">
           <span class="iconfont icon-wechat"></span>
           <img v-if="wxFlag" :src="weixinShare" alt="weixinShare" />
@@ -100,11 +97,7 @@
             </Col>
           </FormItem>
         </Form>
-<<<<<<< HEAD
       </div> -->
-=======
-      </div>
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
     </div>
   </div>
 </template>

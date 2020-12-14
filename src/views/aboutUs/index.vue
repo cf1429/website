@@ -10,11 +10,7 @@
     <Row>
       <div class="aboutUs-banner">
         <div class="banner-left">
-<<<<<<< HEAD
           <h1 class="left-top">旭莱环保科技</h1>
-=======
-          <h1 class="left-top">知仲科技</h1>
->>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           <h1 class="left-bottom">专心·专注·专业·安全</h1>
         </div>
         <img class="banner-right" :src="bannerSrc" alt />
