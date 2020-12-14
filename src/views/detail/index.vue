@@ -58,7 +58,11 @@ export default {
     // },
     sinsaShare(title,url) {
         var param = {
+<<<<<<< HEAD
             // title:  '来自旭莱环保科技有限公司', /** 分享的文字内容(可选，默认为所在页面的title)*/
+=======
+            // title:  '来自知仲科技有限公司', /** 分享的文字内容(可选，默认为所在页面的title)*/
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
             url: url || window.location.href,
             type: '3',
             count: '1', /** 是否显示分享数，1显示(可选)*/

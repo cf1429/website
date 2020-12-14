@@ -1,6 +1,10 @@
 <template>
   <div class="system">
+<<<<<<< HEAD
     <titleCom title="设备简介" />
+=======
+    <titleCom title="系统功能" />
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
     <!-- <systemItem />-->
     <systemItem v-for="item in systemData" :key="item.id" :item="item" />
   </div>
@@ -8,11 +12,19 @@
 
 <script>
 import titleCom from '@/components/titleCom/titleCom'
+<<<<<<< HEAD
 import systemImg1 from "@/assets/images/system1.jpg";
 import systemImg2 from "@/assets/images/system2.jpg";
 import systemImg3 from "@/assets/images/system3.jpg";
 import systemImg4 from "@/assets/images/system4.jpg";
 import systemImg5 from "@/assets/images/system5.jpg";
+=======
+import systemImg1 from "@/assets/images/system1.png";
+import systemImg2 from "@/assets/images/system2.png";
+import systemImg3 from "@/assets/images/system3.png";
+import systemImg4 from "@/assets/images/system4.png";
+import systemImg5 from "@/assets/images/system5.png";
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
 import systemImg6 from "@/assets/images/system6.png";
 import systemImg7 from "@/assets/images/system7.png";
 import systemImg8 from "@/assets/images/system8.png";
@@ -30,38 +42,61 @@ export default {
           id:1,
           sysType:"left",
           sysSrc:systemImg1,
+<<<<<<< HEAD
           title:"供水设备",
+=======
+          title:"在线流程",
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           desc:"通过网络仲裁系统实现案件材料审核受理、组庭、出裁等全流程在线化，提高仲裁流程工作效率"
         },
         {
           id:2,
           sysType:"right",
           sysSrc:systemImg2,
+<<<<<<< HEAD
           title:"加药设备",
+=======
+          title:"固化存证",
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           desc:"所有当事人证据提交后自动生成“哈希值”固化储存，保证证据的安全性、真实性、不可更改，进而保障仲裁的公正性"
         },
         {
           id:3,   
           sysType:"left",
           sysSrc:systemImg3,
+<<<<<<< HEAD
           title:"净水设备",
+=======
+          title:"智能检索",
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           desc:"通过合同编号、申请人、被申请人、案号、申请时间等关键字段信息，实现案件精准和模糊检索"
         },
         {
           id:4,
           sysType:"right",
           sysSrc:systemImg4,
+<<<<<<< HEAD
           title:"软化设备",
+=======
+          title:"视频开庭",
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           desc:"支持远程视频开庭审理，在线确认笔录，并审理全过程音频视频记录"
         },
         {
           id:5,   
           sysType:"left",
           sysSrc:systemImg5,
+<<<<<<< HEAD
           title:"污水处理设备",
           desc:"仲裁流程中每个节点都可自动生成，文书可一键下载打印装订形成线下卷宗"
         },
         /*{ 
+=======
+          title:"智慧文书",
+          desc:"仲裁流程中每个节点都可自动生成，文书可一键下载打印装订形成线下卷宗"
+        },
+        { 
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
           id:6,
           sysType:"right",
           sysSrc:systemImg6,
@@ -81,7 +116,11 @@ export default {
           sysSrc:systemImg8,
           title:"档案管理",
           desc:"案件流程结束后，文书自动整理形成案件归档文件，实现案件智能存储归档"
+<<<<<<< HEAD
         }*/
+=======
+        }
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
       ]
     };
   }

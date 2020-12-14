@@ -6,8 +6,13 @@
     <Row class="banner-wrapper">
       <img :src="bannerSrc" alt />
       <div class="banner-wrapper-content">
+<<<<<<< HEAD
         <h1 class="fs60 content-first">陕西旭莱环保科技有限公司</h1>
         <!-- <h2 class="fs26 content-second">Shaanxi Xulai Environmental Protection </h2> -->
+=======
+        <h1 class="fs60 content-first">知仲互联网仲裁平台</h1>
+        <h2 class="fs26 content-second">Internet Arbitration Platform</h2>
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
       </div>
     </Row>
     <Row class="advantage">
@@ -16,9 +21,15 @@
     <Row v-if="middleBanner.length" class="carousel-wrapper">
       <carousel :carouselData="middleBanner" />
     </Row>
+<<<<<<< HEAD
     <!-- <Row class="flow">
       <flow />
     </Row> -->
+=======
+    <Row class="flow">
+      <flow />
+    </Row>
+>>>>>>> ed79fe6d38e8daba367abfa82391453a9bf2bebd
     <Row class="mapCom">
       <mapCom />
     </Row>
