@@ -1,8 +1,10 @@
 <template>
+
   <div class="flow">
+      <!--
     <titleCom title="系统对接流程" />
     <div class="flow-content">
-      <div class="first-row">
+       <div class="first-row">
         <flowItem v-for="(item) in firstData" :key="item.id" :item="item" row="first" />
       </div>
       <Row class="second-row">
@@ -12,7 +14,9 @@
         <flowItem v-for="(item) in secondData" :key="item.id" :item="item" row="three" />
       </div>
     </div>
+    -->
   </div>
+  
 </template>
 
 <script>

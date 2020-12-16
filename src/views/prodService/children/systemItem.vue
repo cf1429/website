@@ -64,7 +64,7 @@ export default {
         margin-bottom: 2.3vw;
       }
       .left-content {
-        font-size: 22px;
+        font-size: 16px;
         font-family: PingFangSC, PingFangSC-Regular;
         font-weight: 400;
         color: rgba(0, 0, 0, 0.85);
@@ -93,7 +93,7 @@ export default {
         margin-bottom: 2.3vw;
       }
       .right-content {
-        font-size: 22px;
+        font-size: 16px;
         font-family: PingFangSC, PingFangSC-Regular;
         font-weight: 400;
         color: rgba(0, 0, 0, 0.85);

@@ -1,6 +1,6 @@
 <template>
   <div class="func">
-    <titleCom title="系统流程" />
+    <titleCom title="设备细化" />
     <div class="func-wrapper">
       <funcItem/>
     </div>

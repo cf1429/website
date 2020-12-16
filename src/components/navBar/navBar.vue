@@ -21,12 +21,12 @@
             @mouseleave="handleCloseFlag(item)"
           >
             <div class="second-content">
-              <a @click="scrollFun(item)">系统功能</a>
+              <a @click="scrollFun(item)">设备简介</a>
               <!-- <router-link @click="closeFlag(item)" :to="{path:'/prodService',query:{position:1}}" tag="a">系统功能</router-link>
               <router-link :to="{path:'/prodService',query:{position:2}}" tag="a">系统特点</router-link>
               <router-link :to="{path:'/prodService',query:{position:3}}" tag="a">系统流程</router-link>-->
-              <a @click="scrollFeature(item)">系统特点</a>
-              <a @click="scrollFlow(item)">系统流程</a>
+              <a @click="scrollFeature(item)">设备细化</a>
+              <!--<a @click="scrollFlow(item)">系统流程</a> -->
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default {
         },
         {
           id:"2",
-          title:"产品",
+          title:"产品风采",
 
           flag:false,
           src:"/prodService",

@@ -20,14 +20,15 @@
 </template>
 
 <script>
-import carsoul1 from "@/assets/images/fun1.png";
-import carsoul2 from "@/assets/images/fun2.png";
-import carsoul3 from "@/assets/images/fun3.png";
-import carsoul4 from "@/assets/images/fun4.png";
-import carsoul5 from "@/assets/images/fun5.png";
+import carsoul1 from "@/assets/images/fun1.jpg";
+import carsoul2 from "@/assets/images/fun2.jpg";
+import carsoul3 from "@/assets/images/fun3.jpg";
+import carsoul4 from "@/assets/images/fun4.jpg";
+import carsoul5 from "@/assets/images/fun5.jpg";
 import carsoul6 from "@/assets/images/fun6.jpg";
-import carsoul7 from "@/assets/images/fun7.png";
-import carsoul8 from "@/assets/images/fun8.png";
+import carsoul7 from "@/assets/images/fun7.jpg";
+import carsoul8 from "@/assets/images/fun8.jpg";
+import carsoul9 from "@/assets/images/fun9.jpg";
 
 export default {
   name: "funcItem",
@@ -37,36 +38,40 @@ export default {
       btnData:[
         {
           id:0,
-          title:'注册登录',
+          title:'供水设备',
           src:''
         },
         {
           id:1,
-          title:'在线立案',
+          title:'加药设备',
         },
         {
           id:2,
-          title:'证据校验',
+          title:'超滤设备',
         },
         {
           id:3,
-          title:'案件受理',
+          title:'反渗透设备',
         },
         {
           id:4,
-          title:'通知送达',
+          title:'软化设备',
         },
         {
           id:5,
-          title:'案件审理',
+          title:'一体化地埋设备',
         },
         {
           id:6,
-          title:'文书送达',
+          title:'一体化污水设备',
         },
         {
           id:7,
-          title:'文书归档',
+          title:'小型主机设备',
+        },
+        {
+          id:8,
+          title:'自动饮水机',
         },
       ],
       carsoulImg:[
@@ -101,6 +106,10 @@ export default {
         {
           id:8,
           imgSrc:carsoul8
+        },
+        {
+          id:9,
+          imgSrc:carsoul9
         }
       ]
     }
