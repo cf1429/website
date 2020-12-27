@@ -58,13 +58,13 @@ export default {
           src:"/prodService",
         },{
           id:"3",
-          title:"工程案例",
+          title:"公司动态",
 
           flag:false,
           src:"/activity",
         },{
           id:"4",
-          title:"技术服务",
+          title:"资讯中心",
 
           flag:false,
           src:"/news",

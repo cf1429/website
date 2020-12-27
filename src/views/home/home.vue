@@ -7,7 +7,7 @@
       <img :src="bannerSrc" alt />
       <div class="banner-wrapper-content">
         <h1 class="fs60 content-first">陕西旭莱环保科技有限公司</h1>
-        <!-- <h2 class="fs26 content-second">Shaanxi Xulai Environmental Protection </h2> -->
+        <h2 class="fs26 content-second">团结一致合力共铸光辉      憧憬未来宏伟蓝图宏大</h2>
       </div>
     </Row>
     <Row class="advantage">
