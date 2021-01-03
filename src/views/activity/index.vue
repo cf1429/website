@@ -124,7 +124,7 @@ export default {
         }
     });
     this.getData()
-    this.$store.commit('setType','知仲活动')
+    this.$store.commit('setType','旭莱活动')
   },
 };
 </script>

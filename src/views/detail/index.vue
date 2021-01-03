@@ -98,7 +98,7 @@ export default {
   mounted(){
     this.getData(this.$route.query.id)
     this.address = window.location.href
-    this.toSinaShare = 'http://service.weibo.com/share/share.php?appkey=1231031946&title=知仲仲裁研究中心&url='+encodeURIComponent(window.location.href)+'&searchPic=false&style=simple'
+    this.toSinaShare = 'http://service.weibo.com/share/share.php?appkey=1231031946&title=旭莱仲裁研究中心&url='+encodeURIComponent(window.location.href)+'&searchPic=false&style=simple'
   }
 };
 </script>

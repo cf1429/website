@@ -2,7 +2,7 @@
   <div class="list">
     <div class="list-content">
       <Tabs :value="key" :animated="false">
-        <TabPane icon="md-apps" label="知仲活动" name="active">
+        <TabPane icon="md-apps" label="旭莱活动" name="active">
           <listCont :contData="activeData" :type="activity" @changePage="changeActivePage" />
         </TabPane>
         <TabPane icon="md-apps" label="新闻动态" name="news">

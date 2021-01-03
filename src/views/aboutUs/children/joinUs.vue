@@ -8,7 +8,7 @@
   <div class="joinUs">
     <titleCom style="margin-bottom:2vw" title="加入我们" />
     <div class="adderss">
-       <Icon type="ios-mail-outline" />简历投递邮箱：hr@fanyuzeli.com
+       <Icon type="ios-mail-outline" />简历投递邮箱：hr@139.com
     </div>
     <Tabs :active-key="dataList[0]">
       <Tab-pane v-for="item in dataList" :key="item.key" :label="item.key">

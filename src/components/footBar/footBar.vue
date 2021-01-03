@@ -165,7 +165,7 @@ export default {
 <style lang="less" scoped>
 .footBar-wrapper {
   width: 100%;
-  background: #2d3237;
+  background: #2d831a;
   // font-size: 80px;
   .container {
     display: flex;
@@ -174,7 +174,7 @@ export default {
     width: 85vw;
     height: 100%;
     margin: 0 auto;
-    padding-top: 4.8vw;
+    padding-top: 20px;
     .footer-first {
       color: #fff;
       h1 {
@@ -183,7 +183,7 @@ export default {
         font-weight: 500;
         text-align: left;
         color: #ffffff;
-        line-height: 36px;
+        // line-height: 36px;
       }
       .first-bottom {
         font-size: 15px;
@@ -191,9 +191,9 @@ export default {
         font-weight: 500;
         text-align: left;
         color: #ffffff;
-        line-height: 22px;
+        // line-height: 22px;
         letter-spacing: 2px;
-        margin-top: 4.8vw;
+        margin-top: -0.2vw;
         p {
           margin-top: 0.7vw;
           span {

@@ -19,7 +19,7 @@ export default new Vuex.Store({
     async getBanner({ commit }, params) {
       return await axios.post('/cms/contentInfo/list', params)
     },
-    // 知仲活动
+    // 旭莱活动
     async getActive({ commit }, params) {
       return await axios.post('/cms/category/cateGoryContentInfolist', params)
     },

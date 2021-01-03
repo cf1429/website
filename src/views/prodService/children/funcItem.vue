@@ -131,7 +131,7 @@ export default {
     display: flex;
     flex-direction: column;
     width: 11.5vw;
-    height: 33.3vw;
+    height: 36.3vw;
     .btnItem {
       width: 11.5vw;
       height: 3.1vw;

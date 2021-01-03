@@ -5,6 +5,9 @@
       <div v-else class="left-cont">
         <h1 class="left-title">{{item.title}}</h1>
         <p class="left-content">{{item.desc}}</p>
+        <p class="left-content">{{item.price}}</p>
+        <p class="left-content">{{item.contacts}}</p>
+        <p class="left-content">{{item.phone}}</p>
       </div>
     </div>
     <div class="systemItem-right">
@@ -12,6 +15,9 @@
       <div v-else class="right-cont">
         <h1 class="right-title">{{item.title}}</h1>
         <p class="right-content">{{item.desc}}</p>
+        <p class="right-content">{{item.price}}</p>
+        <p class="right-content">{{item.contacts}}</p>
+        <p class="right-content">{{item.phone}}</p>
       </div>
     </div>
   </div>
@@ -36,7 +42,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   height: 39.4vw;
-  padding: 0 10.4vw;
+  padding: 0 13.4vw;
   .systemItem-left {
     display: flex;
     flex-direction: column;
@@ -53,7 +59,7 @@ export default {
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      width: 39.6vw;
+      width: 36.6vw;
       height: 33.9vw;
       .left-title {
         font-size: 1.6vw;

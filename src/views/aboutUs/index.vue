@@ -20,7 +20,7 @@
     <arbitrament />
     <team />
     <joinUs />
-    <photoWall />
+    <!-- <photoWall /> -->
   </div>
 </template>
 
