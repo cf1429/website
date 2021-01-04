@@ -1,14 +1,14 @@
 
 <template>
   <div class="arbitrament">
-    <titleCom style="margin-bottom:2vw" title="什么是互联网仲裁" />
-    <span>互联网仲裁是指利用大数据、云计算、人工智能等技术提供仲裁服务的争议解决途径，依靠互联网仲裁系统来解决争议。互联网仲裁系统根据仲裁委的需求将仲裁的全部或主要程序，包括立案、受理、审理到裁决、送达等运用互联网线上实现。</span>
-    <div class="arbitrament-show">
+    <titleCom style="margin-bottom:2vw" title="我们的目标" />
+    <span>提供最优质的综合环保服务。</span>
+    <!-- <div class="arbitrament-show">
       <div class="showItem" v-for="item in arbitramentData" :key="item.id">
         <img :src="item.arbitramentImg" alt />
         <p>{{item.title}}</p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

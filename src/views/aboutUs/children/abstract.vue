@@ -30,8 +30,8 @@ export default {
 <style lang="less" scoped>
 .abstract{
   width:80vw;
-  margin: 0 auto;
-  padding:2.1vw;
+  margin: 0px auto;
+  padding:2.8vw;
   span {
     font-size: 16px;
     line-height: 30px;

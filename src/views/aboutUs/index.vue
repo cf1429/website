@@ -9,10 +9,10 @@
   <div class="aboutUs">
     <Row>
       <div class="aboutUs-banner">
-        <div class="banner-left">
+        <!-- <div class="banner-left">
           <h1 class="left-top">旭莱环保科技</h1>
           <h1 class="left-bottom">专心·专注·专业·安全</h1>
-        </div>
+        </div> -->
         <img class="banner-right" :src="bannerSrc" alt />
       </div>
     </Row>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import aboutUsbanner from "@/assets/images/aboutUsbanner.png";
+import aboutUsbanner from "@/assets/images/aboutUsbanner.jpeg";
 import abstract from './children/abstract'
 import team from './children/team'
 import joinUs from './children/joinUs'
@@ -56,9 +56,9 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 40vw;
-    padding-left: 17.1vw;
-    padding-right: 17.4vw;
+    height: 52.8vw;
+    // padding-left: 17.1vw;
+    // padding-right: 17.4vw;
     color: #fff;
     background: linear-gradient(112deg, #2759b5 10%, #315392 116%);
     .banner-left {
@@ -79,8 +79,8 @@ export default {
       }
     }
     .banner-right {
-      width: 31.2vw;
-      height: 31.2vw;
+     // width: 31.2vw;
+     // height: 31.2vw;
     }
   }
 }

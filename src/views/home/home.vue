@@ -6,17 +6,17 @@
     <Row class="banner-wrapper">
       <div class="slideBox1">
         <div class="nameff">
-          <p><span>公司动态 /</span> <label>NEWS</label></p>
-          <router-link  to="/activity" title="更多 ">更多+</router-link>
+          <p><span>关于我们 /</span> <label>ABOUT US</label></p>
+          <router-link  to="/aboutUs" title="更多 ">更多+</router-link>
            
         </div>
         <div class="conetnt">
           <img src="https://www.sxlzhb.com/skin/images/about.jpg" alt="">
           <a href="javascript:;">
-             陕西朗正环保科技有限公司是一家国家级高新技术企业、“村镇环境科技产业联盟”副理事长单位，位于西安市高新技术开发区，公司具有环保工程专业承包一级、市政公用工程施工总...
+             陕西旭莱环保科技有限公司是一家国家级高新技术企业、“村镇环境科技产业联盟”副理事长单位，位于西安市高新技术开发区，公司具有环保工程专业承包一级、市政公用工程施工总...
           </a>
           <div>
-            <a href="javascript:;" class="detail">了解详情</a>
+            <!-- <a href="javascript:;" class="detail">了解详情</a> -->
           </div>
         </div>
       </div>
@@ -36,9 +36,9 @@
 
 			               
               <li>
-                <a href="javascript:;" title="朗正环保西安高新区装备制造基地"><span class="date">朗正环保西安高新区装备制造基地</span><i>2020-12-31</i></a></li>
+                <a href="javascript:;" title="旭莱环保西安高新区装备制造基地"><span class="date">旭莱环保西安高新区装备制造基地</span><i>2020-12-31</i></a></li>
             <li>
-            <a href="javascript:;" title="员工关怀 | 温暖前行   与朗正共同"><span class="date">员工关怀 | 温暖前行   与朗正共同</span><i>2020-12-21</i></a></li>
+            <a href="javascript:;" title="员工关怀 | 温暖前行   与旭莱共同"><span class="date">员工关怀 | 温暖前行   与旭莱共同</span><i>2020-12-21</i></a></li>
             <li><a href="javascript:;" title="助力杨凌农村人居环境改善   坚决"><span class="date">助力杨凌农村人居环境改善   坚决</span><i>2020-08-05</i></a></li>
             </ul>
         </div>
