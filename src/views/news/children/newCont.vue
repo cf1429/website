@@ -4,13 +4,13 @@
     <img class="newCont-left" :src="newsContData.coverFile.filePath" alt />
     <div class="newCont-right">
       <router-link
-        :to="{path:'/news/detail',query:{id:newsContData.id,secType:secType}}"
+        :to="`/news/detail/${newsContData.id}`"
         class="right-title"
         target="_blank"
       >{{newsContData.title}}<span class="topFlag" v-if="newsContData.topFlag ==1">置顶</span></router-link>
 
       <router-link
-        :to="{path:'/news/detail',query:{id:newsContData.id,secType:secType}}"
+        :to="`/news/detail/${newsContData.id}`"
         class="right-cont"
         target="_blank"
       >{{newsContData.sumInfo}}</router-link>
@@ -22,7 +22,9 @@
           <Icon type="ios-time-outline"></Icon>
           {{newsContData.createTime}}
         </span>
-        <router-link :to="{path:'/news/detail',query:{id:newsContData.id,secType:secType}}" tag="a" target="_blank">全文></router-link>
+        <router-link 
+        :to="`/news/detail/${newsContData.id}`"
+         tag="a" target="_blank">全文></router-link>
       </p>
     </div>
   </div>

@@ -30,7 +30,7 @@
          <ul>
               <div class="iop">
                 <a href="javascript:;" title="朗正生产工人的自白" class="top"><i><img src="https://www.sxlzhb.com/images/defaultpic.gif" alt="朗正生产工人的自白" style="height:80px; width:80px;"></i>
-                <p>朗正生产工人的自白
+                <p>旭莱生产工人的自白
                   <span>我们没有悦耳的歌声，灵动的舞姿， 我 们有按图组铆，掌控焊花的灵巧双手， 我 们有不怕脏累，挥汗如雨的拼搏精神； 我们没有文采飞扬，妙笔生花的...</span></p>
                 </a></div>
 

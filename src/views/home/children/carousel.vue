@@ -55,6 +55,7 @@ export default {
 }
 /deep/ .ivu-carousel-item {
   img {
+    width: 100%;
     cursor: pointer;
   }
 }

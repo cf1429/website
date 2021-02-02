@@ -13,7 +13,8 @@ import qs from 'qs'
 
 switch (process.env.NODE_ENV) {
 	case 'production':
-		 axios.defaults.baseURL = 'http://192.168.189.1:8086/api'
+		  axios.defaults.baseURL = 'http://8.133.170.159:8086/'
+		//  axios.defaults.baseURL = 'http://192.168.189.1:8086/'
 		// axios.defaults.baseURL = 'http://103.90.189.226:12562/api';
 		// axios.defaults.baseURL = 'http://www.zhizhongkj.cn/api';
 		// axios.defaults.baseURL = 'http://192.168.1.193:8087/api';

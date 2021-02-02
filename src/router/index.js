@@ -45,7 +45,7 @@ export default new Router({
             component: activity,
         },
         {
-            path: '/activity/detail',
+            path: '/activity/detail/:id',
             name: 'detail',
             component: detail,
         },
@@ -55,7 +55,7 @@ export default new Router({
             component: news
         },
         {
-            path: '/news/detail',
+            path: '/news/detail/:id',
             name: 'detail',
             component: detail
         },

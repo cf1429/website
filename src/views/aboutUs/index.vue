@@ -17,7 +17,7 @@
       </div>
     </Row>
     <abstract />
-    <arbitrament />
+    <!-- <arbitrament /> -->
     <team />
     <joinUs />
     <!-- <photoWall /> -->
@@ -81,6 +81,8 @@ export default {
     .banner-right {
      // width: 31.2vw;
      // height: 31.2vw;
+     height: 100%;
+     width: 100%;
     }
   }
 }

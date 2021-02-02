@@ -96,7 +96,8 @@ export default {
     }
   },
   mounted(){
-    this.getData(this.$route.query.id)
+    console.log(this.$route.params);
+    this.getData(this.$route.params.id)
     this.address = window.location.href
     this.toSinaShare = 'http://service.weibo.com/share/share.php?appkey=1231031946&title=旭莱仲裁研究中心&url='+encodeURIComponent(window.location.href)+'&searchPic=false&style=simple'
   }

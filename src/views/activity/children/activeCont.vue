@@ -9,17 +9,19 @@
     <img class="activeCont-left" :src="activeContData.coverFile.filePath" alt />
     <div class="activeCont-right">
       <router-link
-        :to="{path:'/activity/detail',query:{id:activeContData.id,secType:secType}}"
+        :to="`/activity/detail/${activeContData.id}`"
         target="_blank"
         class="right-title"
       >{{activeContData.title}}<span class="topFlag" v-if="activeContData.topFlag ==1">置顶</span></router-link>
       <router-link
-        :to="{path:'/activity/detail',query:{id:activeContData.id,secType:secType}}"
+        :to="`/activity/detail/${activeContData.id}`"
         target="_blank"
         class="right-cont"
       >{{activeContData.sumInfo}}</router-link>
       <p class="right-bottom">
-        <router-link :to="{path:'/activity/detail',query:{id:activeContData.id,secType:secType}}" target="_blank" tag="a">全文></router-link>
+        <router-link 
+        :to="`/activity/detail/${activeContData.id}`"
+         target="_blank" tag="a">全文></router-link>
       </p>
     </div>
   </div>

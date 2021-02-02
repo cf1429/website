@@ -7,7 +7,7 @@
 
 <template>
   <div class="detailTitle">
-    <p class="datail-type">{{this.$store.state.type}} >> {{secType}} </p>
+    <p class="datail-type">{{detailData.categoryName}} >>  </p>
     <div class="container">
       <p>{{detailData.title}}</p>
       <p class="psTitle">
